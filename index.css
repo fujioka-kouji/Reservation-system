@@ -1,0 +1,237 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.header{
+  height: 50px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.header-left {
+  font-family: Pacifico, sans-serif;
+  float: left;
+  padding: 10px 60px;
+  color: #ED7000;
+  font-size: 30px;
+}
+
+.header-right {
+  float: right;
+  color: #808080;
+}
+
+.header-right li {
+  float: left;
+  padding: 20px 30px;
+  border-left: 1px solid #dddddd;
+}
+
+.main{
+  width: 100%;
+  padding: 0px 0px;
+}
+
+.copy-container{
+  width: auto;
+  height: 500px;
+  border-top: 5px solid #dee7ec;
+  border-bottom: 5px solid #dee7ec;
+  background-image: url(./photo/tennai.jpg);
+  color: white;
+  background-size: 50% auto;
+  background-position: bottom;
+  background-repeat: repeat-x;
+  padding-left: 30px
+}
+.copy-container h1{
+  color:#ff0000;
+  font-size:50px;
+  font=family:serif;
+  letter-spacing: 10px;
+  margin-left: 350px;
+  width: auto;
+  height: 80px;
+}
+
+.copy-container h2{
+  font-size:30px;
+  margin-top: 20px;
+  margin-left: 400px;
+}
+
+P{
+  padding-left: 30px;
+  color:white;
+  font-size: 30px;
+  margin-left: 400px;
+}
+
+.sent{
+  font-size: 15px;
+  color: white;
+  width: 200px;
+  height: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 12px 24px;
+  text-align: center;
+  background-color: #5cb85c;
+  display: inline-block;
+  opacity: 0.8;
+  border: 1px solid #5cb85c;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.sent:hover{
+  opacity: 1;
+}
+
+.for {
+  text-align: center;
+}
+
+.footer{
+  background-color: #ceccf3;
+  height: 70px;
+}
+
+.footer-logo{
+  padding: 10px 40px;
+  font-family: Pacifico, sans-serif;
+  float: left;
+  color: #ED7000;
+  font-size: 30px;
+}
+
+.footer-list li{
+  padding: 20px 20px;
+  float: right;
+}
+
+@media screen and (max-width:480px) {
+  * {
+  	float: none;
+  	position: static;
+  }
+
+  .header{
+    height: 50px;
+    border-bottom: 1px solid #dddddd;
+  }
+
+  .header-left {
+    font-family: Pacifico, sans-serif;
+    float: left;
+    padding: 10px 20px;
+    color: #ED7000;
+    font-size: 30px;
+  }
+
+  .header-right {
+    color: #808080;
+  }
+
+  .header-right li {
+    padding: 5px 30px;
+    border-left: 1px solid #dddddd;
+  }
+
+  .main{
+    padding: 0px 0px
+  }
+
+  .copy-container{
+    width: auto;
+    height: 300px;
+    margin-top: 100px;
+    border-top: 5px solid #dee7ec;
+    border-bottom: 5px solid #dee7ec;
+    background-image: url(./photo/tennai.jpg);
+    color: white;
+    background-size: 100% auto;
+    background-position: bottom;
+    background-repeat: repeat-x;
+    padding-left: 30px
+  }
+  .copy-container h1{
+    color:#ff0000;
+    font-size:50px;
+    font=family:serif;
+    letter-spacing: 10px;
+    margin-left: 10px;
+    width: auto;
+    height: auto;
+  }
+
+  .copy-container h2{
+    font-size:20px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+
+  P{
+    padding-left: 10px;
+    color:white;
+    font-size: 30px;
+    margin-left: 10px;
+  }
+
+
+  .sent{
+    font-size: 15px;
+    color: blue;
+    width: 200px;
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 12px 24px;
+    text-align: center;
+    background-color: #5cb85c;
+    display: inline-block;
+    opacity: 0.8;
+    border: 1px solid #5cb85c;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+
+  .sent:hover{
+    opacity: 1;
+  }
+
+  .for {
+    text-align: center;
+  }
+
+  .footer{
+    background-color: #ceccf3;
+    height: 300px;
+    padding-top: 30px;
+  }
+
+  .footer-logo{
+    padding: 10px 10px;
+    font-family: Pacifico, sans-serif;
+    float: left;
+    color: #ED7000;
+    font-size: 30px;
+    display: none;
+  }
+
+  .footer-right {
+    float: left;
+  }
+
+  .footer-list li{
+    float: left;
+    margin-left: 10px;
+    padding: 5px 30px;
+    text-align: left;
+  }
+
+}
