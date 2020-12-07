@@ -1,0 +1,274 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  height: 50px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.header-left {
+  font-family: Pacifico, sans-serif;
+  float: left;
+  padding: 10px 60px;
+  color: #ED7000;
+  font-size: 30px;
+}
+
+.header-right {
+  float: right;
+  color: #808080;
+}
+
+.header-right li {
+  float: left;
+  padding: 20px 30px;
+  border-left: 1px solid #dddddd;
+}
+
+.main {
+  width: 100%
+  padding: 0px 0px;
+}
+
+.contact-form {
+  width: 70%;
+  height: 400px;
+  margin: 5px auto;
+  padding: 20px;
+  background-color: #F5F5F5;
+  color: #333;
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+a {
+  color: red;
+
+}
+
+.form-item {
+  padding: 10px 0 10px 0;
+  font-weight: bold;
+  margin-left: 300px;
+  font-size: 20px;
+}
+
+.monthmessege{
+  margin-left: 300px;
+  font-size: 30px;
+  color: red;
+}
+
+input.hide{
+  display: none;
+}
+
+input[type="text"] {
+  margin-left: 300px;
+  width: 30%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 6px 12px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #555;
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 20%;
+  border: 1px solid #5cb85c;
+  border-radius: 4px;
+  padding: 12px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: white;
+  background-color: #5cb85c;
+  opacity: 0.8;
+}
+
+input[type="submit"]:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
+.for {
+  text-align: center;
+}
+
+.footer{
+  background-color: #ceccf3;
+  height: 70px;
+}
+
+.footer-logo{
+  padding: 10px 40px;
+  font-family: Pacifico, sans-serif;
+  float: left;
+  color: #ED7000;
+  font-size: 30px;
+}
+
+.footer-right li {
+  display: none;
+}
+
+.footer-list li{
+  padding: 20px 20px;
+  float: right;
+}
+
+
+@media screen and (max-width:480px) {
+  * {
+    float: none;
+    position: static;
+    box-sizing: border-box;
+  }
+
+  .header-left {
+    font-family: Pacifico, sans-serif;
+
+    padding: 10px 20px;
+    color: #ED7000;
+    font-size: 30px;
+  }
+
+  .header-right {
+    color: #808080;
+    display: none;
+  }
+
+  .header-right li {
+    padding: 5px 30px;
+    border-left: 1px solid #dddddd;
+  }
+
+  .main {
+    width: auto;
+  }
+
+  .contact-form {
+    width: 350px;
+    margin: 5px auto;
+    padding: 10px 0px;
+    border-top: 5px;
+    background-color: #F5F5F5;
+    color: #333;
+    text-align: center;
+  }
+
+  .form-title {
+    width: 360px;
+    text-align: center;
+    margin: 10px auto;
+    font-size: 25px;
+  }
+
+  a {
+    color: red;
+
+  }
+
+  .form-item {
+    width: auto;
+    padding: 0px 0px;
+    font-weight: bold;
+    margin: 0px auto;
+  }
+
+  .monthmessege{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  input.hide{
+    display: none;
+  }
+
+  input[type="text"] {
+    margin: 10px auto;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 12px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555;
+  }
+
+  input[type="submit"] {
+    display: block;
+    margin: 10px auto;
+    width: 250px;
+    border: 1px solid #5cb85c;
+    border-radius: 4px;
+    padding: 12px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: white;
+    background-color: #5cb85c;
+    opacity: 0.8;
+  }
+
+  input[type="submit"]:hover{
+    opacity: 1;
+    cursor: pointer;
+  }
+
+.for {
+  text-align: center;
+}
+  .footer{
+    background-color: #ceccf3;
+    height: 300px;
+    padding-top: 20px;
+  }
+
+  .footer-logo{
+    padding: 10px 10px;
+    font-family: Pacifico, sans-serif;
+    float: left;
+    color: #ED7000;
+    font-size: 30px;
+    display: none;
+  }
+
+  .footer-right {
+    margin-top: 20px;
+  }
+
+  .footer-right li{
+    display: block;
+    float: left;
+    margin-left: 10px;
+    padding: 5px 30px;
+    text-align: left;
+  }
+
+  .footer-list li{
+    float: left;
+    margin-left: 10px;
+    padding: 5px 30px;
+    text-align: left;
+  }
+}

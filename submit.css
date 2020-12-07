@@ -1,0 +1,188 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  height: 50px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.header-left {
+  font-family: Pacifico, sans-serif;
+  float: left;
+  padding: 10px 60px;
+  color: #ED7000;
+  font-size: 30px;
+}
+
+.header-right {
+  float: right;
+  color: #808080;
+}
+
+.header-right li {
+  float: left;
+  padding: 20px 30px;
+  border-left: 1px solid #dddddd;
+}
+
+a {
+  color: red;
+}
+
+.main {
+  width: auto;
+  padding: 0px 0px;
+}
+
+.contact-form {
+  width: 70%;
+  margin: 5px auto;
+  height: 150px;
+  padding: 20px;
+  border-top: 5px;
+  background-color: #F5F5F5;
+  color: #333;
+}
+
+.image {
+  width: auto;
+  margin-left: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.photo {
+  width: 300px;
+}
+
+
+.footer{
+  background-color: #ceccf3;
+  height: 50px;
+}
+
+.footer-logo{
+  padding: 10px 40px;
+  font-family: Pacifico, sans-serif;
+  float: left;
+  color: #ED7000;
+  font-size: 30px;
+}
+
+.footer-right li {
+  display: none;
+}
+
+.footer-list li{
+  padding: 20px 20px;
+  float: right;
+}
+
+@media screen and (max-width:480px) {
+  * {
+    float: none;
+    position: static;
+    box-sizing: border-box;
+  }
+
+  .header-left {
+    font-family: Pacifico, sans-serif;
+
+    padding: 10px 20px;
+    color: #ED7000;
+    font-size: 30px;
+  }
+
+  .header-right {
+    color: #808080;
+    display: none;
+  }
+
+  .header-right li {
+    padding: 5px 30px;
+    border-left: 1px solid #dddddd;
+    display: none;
+  }
+
+  .main {
+    width: auto;
+  }
+
+  .contact-form {
+    width: 350px;
+    margin: 5px auto;
+    padding: 10px 0px;
+    margin-top: 15px;
+    background-color: #F5F5F5;
+    color: #333;
+    text-align: center;
+  }
+
+
+.thanks {
+    width: auto;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+p {
+  margin-top: 10px;
+  font-size: 10px;
+}
+
+  .image {
+    margin: 0 5px;
+    width: : auto;
+    padding: 0 auto;
+  }
+
+  .photo {
+    display: block;
+    width: 45%;
+    float: left;
+    margin-right: 5px;
+    margin-left: 10px;
+  }
+
+  .footer{
+    margin-top: 200px;
+    background-color: #ceccf3;
+    height: 300px;
+    padding-top: 20px;
+  }
+
+  .footer-logo{
+    padding: 10px 10px;
+    font-family: Pacifico, sans-serif;
+    float: left;
+    color: #ED7000;
+    font-size: 30px;
+    display: none;
+  }
+
+  .footer-right {
+    margin-top: 20px;
+  }
+
+  .footer-right li{
+    display: block;
+    float: left;
+    margin-left: 10px;
+    padding: 5px 30px;
+    text-align: left;
+  }
+
+  .footer-list li{
+    float: left;
+    margin-left: 10px;
+    padding: 5px 30px;
+    text-align: left;
+  }
+}
